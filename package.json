@@ -1,0 +1,27 @@
+{
+  "name": "Activity 4.3 - Code Structuring for Bigger Projects",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "login": "vercel login",
+    "logout": "vercel logout",
+    "fix-login": "vercel login",
+    "vercel-build": "npm run build",
+    "postinstall": "chmod +x node_modules/.bin/vite"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "gsap": "^3.5.1",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0",
+    "vercel": "^39.0.2"
+  }
+}
+
